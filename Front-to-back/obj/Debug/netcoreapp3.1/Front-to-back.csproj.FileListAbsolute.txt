@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.AssemblyInfo.cs
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\p130\Front to back\Front-to-back\obj\Debug\netcoreapp3.1\Front-to-back.RazorAssemblyInfo.cs

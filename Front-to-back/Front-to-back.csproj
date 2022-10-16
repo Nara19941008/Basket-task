@@ -1,0 +1,184 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Front_to_back</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Accessories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\about-us.css" />
+    <None Include="wwwroot\assets\css\about-us.css.map" />
+    <None Include="wwwroot\assets\css\about-us.scss" />
+    <None Include="wwwroot\assets\css\accessories.css" />
+    <None Include="wwwroot\assets\css\accessories.css.map" />
+    <None Include="wwwroot\assets\css\accessories.scss" />
+    <None Include="wwwroot\assets\css\cart.css" />
+    <None Include="wwwroot\assets\css\cart.css.map" />
+    <None Include="wwwroot\assets\css\cart.scss" />
+    <None Include="wwwroot\assets\css\contact.css" />
+    <None Include="wwwroot\assets\css\contact.css.map" />
+    <None Include="wwwroot\assets\css\contact.scss" />
+    <None Include="wwwroot\assets\css\product.css" />
+    <None Include="wwwroot\assets\css\product.css.map" />
+    <None Include="wwwroot\assets\css\product.scss" />
+    <None Include="wwwroot\assets\css\profile.css" />
+    <None Include="wwwroot\assets\css\profile.css.map" />
+    <None Include="wwwroot\assets\css\profile.scss" />
+    <None Include="wwwroot\assets\css\signin.css" />
+    <None Include="wwwroot\assets\css\signin.css.map" />
+    <None Include="wwwroot\assets\css\signin.scss" />
+    <None Include="wwwroot\assets\css\signup.css" />
+    <None Include="wwwroot\assets\css\signup.css.map" />
+    <None Include="wwwroot\assets\css\signup.scss" />
+    <None Include="wwwroot\assets\css\style.css" />
+    <None Include="wwwroot\assets\css\style.css.map" />
+    <None Include="wwwroot\assets\css\style.scss" />
+    <None Include="wwwroot\assets\dist\assets\ajax-loader.gif" />
+    <None Include="wwwroot\assets\dist\assets\owl.carousel.css" />
+    <None Include="wwwroot\assets\dist\assets\owl.carousel.min.css" />
+    <None Include="wwwroot\assets\dist\assets\owl.theme.default.css" />
+    <None Include="wwwroot\assets\dist\assets\owl.theme.default.min.css" />
+    <None Include="wwwroot\assets\dist\assets\owl.theme.green.css" />
+    <None Include="wwwroot\assets\dist\assets\owl.theme.green.min.css" />
+    <None Include="wwwroot\assets\dist\assets\owl.video.play.png" />
+    <None Include="wwwroot\assets\dist\LICENSE" />
+    <None Include="wwwroot\assets\dist\owl.carousel.js" />
+    <None Include="wwwroot\assets\dist\owl.carousel.min.js" />
+    <None Include="wwwroot\assets\dist\README.md" />
+    <None Include="wwwroot\assets\img\1.webp" />
+    <None Include="wwwroot\assets\img\10.webp" />
+    <None Include="wwwroot\assets\img\111111.webp" />
+    <None Include="wwwroot\assets\img\123.jpg" />
+    <None Include="wwwroot\assets\img\12345.webp" />
+    <None Include="wwwroot\assets\img\22222.webp" />
+    <None Include="wwwroot\assets\img\33333.webp" />
+    <None Include="wwwroot\assets\img\4.jpg" />
+    <None Include="wwwroot\assets\img\4444.webp" />
+    <None Include="wwwroot\assets\img\456.jpg" />
+    <None Include="wwwroot\assets\img\5555.webp" />
+    <None Include="wwwroot\assets\img\66666.webp" />
+    <None Include="wwwroot\assets\img\67890.webp" />
+    <None Include="wwwroot\assets\img\777.webp" />
+    <None Include="wwwroot\assets\img\789.jpg" />
+    <None Include="wwwroot\assets\img\888888.webp" />
+    <None Include="wwwroot\assets\img\99999.webp" />
+    <None Include="wwwroot\assets\img\aaaaaa.webp" />
+    <None Include="wwwroot\assets\img\acc.jfif" />
+    <None Include="wwwroot\assets\img\accessories.jpg" />
+    <None Include="wwwroot\assets\img\background.jfif" />
+    <None Include="wwwroot\assets\img\backpack.jpg" />
+    <None Include="wwwroot\assets\img\banner1.jfif" />
+    <None Include="wwwroot\assets\img\banner2.webp" />
+    <None Include="wwwroot\assets\img\banner3.jpg" />
+    <None Include="wwwroot\assets\img\belt.jpg" />
+    <None Include="wwwroot\assets\img\bg-sunglass.eed54bbe.jpg" />
+    <None Include="wwwroot\assets\img\black dress.jpg" />
+    <None Include="wwwroot\assets\img\blog.jpg" />
+    <None Include="wwwroot\assets\img\blog2.jpg" />
+    <None Include="wwwroot\assets\img\blue denim.jpg" />
+    <None Include="wwwroot\assets\img\blue jean.jpg" />
+    <None Include="wwwroot\assets\img\blue1.jfif" />
+    <None Include="wwwroot\assets\img\card.jpg" />
+    <None Include="wwwroot\assets\img\card2.jpg" />
+    <None Include="wwwroot\assets\img\chain.jpg" />
+    <None Include="wwwroot\assets\img\circular speaker.jpg" />
+    <None Include="wwwroot\assets\img\clothing.jpg" />
+    <None Include="wwwroot\assets\img\clothing1.jpg" />
+    <None Include="wwwroot\assets\img\Denim pullover.jpg" />
+    <None Include="wwwroot\assets\img\depositphotos_185032256-stock-photo-it-team-working-in-office.jpg" />
+    <None Include="wwwroot\assets\img\dig watch.jpg" />
+    <None Include="wwwroot\assets\img\download1.png" />
+    <None Include="wwwroot\assets\img\download2.png" />
+    <None Include="wwwroot\assets\img\download3.png" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template.html" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\10.6477da9e.chunk.js.download" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\10.fa45e20f.chunk.css" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\26.fa752092.chunk.js.download" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\4.bd030e85.chunk.js.download" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\4374300_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\4397400_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\4743301_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\4863102_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\5407064_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\5513500_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\5578849_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\5578851_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\5588602_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\6443034_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\6848136_sb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\9881868_rb.jpg" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\css" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\dsp" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\icon" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\main.046be15b.chunk.css" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\main.620a8322.chunk.js.download" />
+    <None Include="wwwroot\assets\img\Embryo - ReactJs Material Design eCommerce Template_files\material-design-iconic-font.min.css" />
+    <None Include="wwwroot\assets\img\embryo white.png" />
+    <None Include="wwwroot\assets\img\embryo.png" />
+    <None Include="wwwroot\assets\img\free-add-to-basket-icon-3042-thumb.png" />
+    <None Include="wwwroot\assets\img\Gadgets-Linux-review.jpg" />
+    <None Include="wwwroot\assets\img\Gadgets.jpg" />
+    <None Include="wwwroot\assets\img\galax.jpg" />
+    <None Include="wwwroot\assets\img\headphone.jpg" />
+    <None Include="wwwroot\assets\img\icon-5359553_1280.png" />
+    <None Include="wwwroot\assets\img\image.jpg" />
+    <None Include="wwwroot\assets\img\james.jfif" />
+    <None Include="wwwroot\assets\img\john.jfif" />
+    <None Include="wwwroot\assets\img\john12.png" />
+    <None Include="wwwroot\assets\img\lack t.jpg" />
+    <None Include="wwwroot\assets\img\michael.jfif" />
+    <None Include="wwwroot\assets\img\phonme.jfif" />
+    <None Include="wwwroot\assets\img\photo.jfif" />
+    <None Include="wwwroot\assets\img\prod1.jpg" />
+    <None Include="wwwroot\assets\img\prod2.jpg" />
+    <None Include="wwwroot\assets\img\prod3.jpg" />
+    <None Include="wwwroot\assets\img\prodd2.jfif" />
+    <None Include="wwwroot\assets\img\proddd1.jpg" />
+    <None Include="wwwroot\assets\img\product1.jpg" />
+    <None Include="wwwroot\assets\img\product2.jpg" />
+    <None Include="wwwroot\assets\img\product3.jpg" />
+    <None Include="wwwroot\assets\img\red strip dress.jpg" />
+    <None Include="wwwroot\assets\img\rose.jfif" />
+    <None Include="wwwroot\assets\img\signin.jpg" />
+    <None Include="wwwroot\assets\img\signin.mhtml" />
+    <None Include="wwwroot\assets\img\signup.jfif" />
+    <None Include="wwwroot\assets\img\slider 1.jpg" />
+    <None Include="wwwroot\assets\img\slider 2.jpg" />
+    <None Include="wwwroot\assets\img\slider 3.jpg" />
+    <None Include="wwwroot\assets\img\smart.jfif" />
+    <None Include="wwwroot\assets\img\smartphone.jfif" />
+    <None Include="wwwroot\assets\img\Superjacket.jpg" />
+    <None Include="wwwroot\assets\img\Vintage jean.jpg" />
+    <None Include="wwwroot\assets\img\wallet.jpg" />
+    <None Include="wwwroot\assets\img\walllll.jfif" />
+    <None Include="wwwroot\assets\img\watch.jpg" />
+    <None Include="wwwroot\assets\img\white air.jpg" />
+    <None Include="wwwroot\assets\img\white t shirt.jpg" />
+    <None Include="wwwroot\assets\img\work-people-orange-bg.jpg" />
+    <None Include="wwwroot\assets\js\about-us.js" />
+    <None Include="wwwroot\assets\js\accessories.js" />
+    <None Include="wwwroot\assets\js\cart.js" />
+    <None Include="wwwroot\assets\js\contact.js" />
+    <None Include="wwwroot\assets\js\product.js" />
+    <None Include="wwwroot\assets\js\script.js" />
+  </ItemGroup>
+
+</Project>

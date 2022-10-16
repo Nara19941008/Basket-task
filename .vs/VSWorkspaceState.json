@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Front-to-back",
+    "\\Front-to-back\\Models",
+    "\\Front-to-back\\ViewModels",
+    "\\Front-to-back\\Views",
+    "\\Front-to-back\\Views\\Basket",
+    "\\Front-to-back\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Front-to-back\\appsettings.Development.json",
+  "PreviewInSolutionExplorer": false
+}
